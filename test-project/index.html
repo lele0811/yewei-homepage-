@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Ye Wei - Applied Computational intelligencE Lab</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h3>ACE Lab</h3>
+                <p>Applied Computational intelligencE</p>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">HOME</a></li>
+                <li class="nav-item"><a href="#news" class="nav-link">NEWS</a></li>
+                <li class="nav-item"><a href="#research" class="nav-link">RESEARCH</a></li>
+                <li class="nav-item"><a href="#publications" class="nav-link">PUBLICATIONS</a></li>
+                <li class="nav-item"><a href="#group" class="nav-link">GROUP</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">EDUCATION</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">CONTACT</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Dr. Ye Wei</h1>
+                    <h2>Assistant Professor</h2>
+                    <h3>Department of Data Science, City University of Hong Kong</h3>
+                    <p class="hero-description">
+                        Dr. Ye Wei's research centers on designing data-driven methodologies to derive optimal solutions from limited datasets. 
+                        His work addresses high-dimensional, nonlinear challenges in complex real-world systems using optimization techniques and generative models, 
+                        with applications in materials discovery, quantum computing, and protein design.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#research" class="btn btn-primary">Research</a>
+                        <a href="#contact" class="btn btn-secondary">Contact</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/weiye.jpg" alt="Dr. Ye Wei">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="section">
+        <div class="container">
+            <h2 class="section-title">Latest News</h2>
+            <div class="news-container">
+                <div class="news-item">
+                    <div class="news-date">2025.01</div>
+                    <div class="news-content">
+                        <h4>Joined City University of Hong Kong</h4>
+                        <p>Dr. Ye Wei joins City University of Hong Kong as Assistant Professor in the Department of Data Science.</p>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div class="news-date">2024.08</div>
+                    <div class="news-content">
+                        <h4>New Paper in Advanced Science</h4>
+                        <p>Our work on "From Static to Dynamic Structures: Improving Binding Affinity Prediction with Graph‐Based Deep Learning" published in Advanced Science.</p>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div class="news-date">2023.10</div>
+                    <div class="news-content">
+                        <h4>Featured in Nature Communications</h4>
+                        <p>Research on "Machine learning-enabled constrained multi-objective design of architected materials" published in Nature Communications.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Research Areas</h2>
+            <div class="research-grid">
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Data-Driven Optimization</h3>
+                    <p>Developing advanced optimization methodologies to derive optimal solutions from limited datasets, addressing high-dimensional and nonlinear challenges in complex real-world systems.</p>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Learning of Complex Systems</h3>
+                    <p>Machine learning approaches for complex systems including quantum computing, quantum error correction, and learning & optimization of highly constrained complex systems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="section">
+        <div class="container">
+            <h2 class="section-title">Selected Publications</h2>
+            <div class="publication-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="journal">Journal</button>
+                <button class="filter-btn" data-filter="conference">Conference</button>
+                <button class="filter-btn" data-filter="book">Book Chapter</button>
+            </div>
+            <div class="publications-list">
+                <div class="publication-item" data-category="journal">
+                    <h4>From Static to Dynamic Structures: Improving Binding Affinity Prediction with Graph‐Based Deep Learning</h4>
+                    <p class="authors"><strong>Ye Wei</strong>, et al.</p>
+                    <p class="venue"><em>Advanced Science</em>, August 2024</p>
+                    <div class="publication-links">
+                        <a href="https://doi.org/10.1002/advs.202405404" class="pub-link">DOI</a>
+                        <a href="#" class="pub-link">PDF</a>
+                        <a href="#" class="pub-link">BibTeX</a>
+                    </div>
+                </div>
+                <div class="publication-item" data-category="journal">
+                    <h4>Machine learning-enabled constrained multi-objective design of architected materials</h4>
+                    <p class="authors"><strong>Ye Wei</strong>, et al.</p>
+                    <p class="venue"><em>Nature Communications</em>, October 2023</p>
+                    <div class="publication-links">
+                        <a href="https://doi.org/10.1038/s41467-023-42415-y" class="pub-link">DOI</a>
+                        <a href="#" class="pub-link">PDF</a>
+                        <a href="#" class="pub-link">BibTeX</a>
+                    </div>
+                </div>
+                <div class="publication-item" data-category="journal">
+                    <h4>Machine learning-enabled high-entropy alloy discovery</h4>
+                    <p class="authors"><strong>Ye Wei</strong>, et al.</p>
+                    <p class="venue"><em>Science</em>, Vol. 378, October 2022</p>
+                    <div class="publication-links">
+                        <a href="https://doi.org/10.1126/science.abo4940" class="pub-link">DOI</a>
+                        <a href="#" class="pub-link">PDF</a>
+                        <a href="#" class="pub-link">BibTeX</a>
+                    </div>
+                </div>
+                <div class="publication-item" data-category="journal">
+                    <h4>Machine-learning-enhanced time-of-flight mass spectrometry analysis</h4>
+                    <p class="authors"><strong>Ye Wei</strong>, et al.</p>
+                    <p class="venue"><em>Patterns</em>, February 2021</p>
+                    <div class="publication-links">
+                        <a href="https://doi.org/10.1016/j.patter.2020.100192" class="pub-link">DOI</a>
+                        <a href="#" class="pub-link">PDF</a>
+                        <a href="#" class="pub-link">BibTeX</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Group Section -->
+    <section id="group" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Research Group</h2>
+            <div class="group-grid">
+                <div class="member-card">
+                    <img src="assets/weiye.jpg" alt="Dr. Ye Wei">
+                    <h4>Dr. Ye Wei</h4>
+                    <p class="position">Principal Investigator</p>
+                    <p class="research">Materials Discovery, Protein Design, Quantum Computing</p>
+                    <div class="member-links">
+                        <a href="mailto:yewei@cityu.edu.hk"><i class="fas fa-envelope"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-google-scholar"></i></a>
+                    </div>
+                </div>
+                <div class="member-card">
+                    <img src="assets/member2.jpg" alt="Bo Peng">
+                    <h4>Bo Peng</h4>
+                    <p class="position">Postdoctoral Researcher</p>
+                    <p class="research">Machine Learning</p>
+                    <div class="member-links">
+                        <a href="#"><i class="fas fa-envelope"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="member-card">
+                    <img src="assets/member3.jpg" alt="Wenjun Gao">
+                    <h4>Wenjun Gao</h4>
+                    <p class="position">PhD Student</p>
+                    <p class="research">Research focus TBD</p>
+                    <div class="member-links">
+                        <a href="#"><i class="fas fa-envelope"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="member-card">
+                    <img src="assets/member4.jpg" alt="Liu Yang">
+                    <h4>Liu Yang</h4>
+                    <p class="position">PhD Student</p>
+                    <p class="research">Research focus TBD</p>
+                    <div class="member-links">
+                        <a href="#"><i class="fas fa-envelope"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Education & Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2025 - Present</div>
+                    <div class="timeline-content">
+                        <h4>Assistant Professor</h4>
+                        <p>Department of Data Science, City University of Hong Kong</p>
+                        <p>Director, Applied Computational intelligencE Laboratory</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2023 - 2024</div>
+                    <div class="timeline-content">
+                        <h4>Postdoctoral Researcher</h4>
+                        <p>School of Bioengineering, EPFL (École Polytechnique Fédérale de Lausanne)</p>
+                        <p>Focus: Developing data-driven tools for biological applications</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2021 - 2023</div>
+                    <div class="timeline-content">
+                        <h4>Postdoctoral Scholar</h4>
+                        <p>Institute of Interdisciplinary Information Science, Tsinghua University</p>
+                        <p>Research in machine learning and computational methods</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2018 - 2021</div>
+                    <div class="timeline-content">
+                        <h4>Ph.D. in Materials Science</h4>
+                        <p>Max Planck Institute for Sustainable Materials and Intelligent Systems, Germany</p>
+                        <p>Thesis: Machine learning for materials discovery and optimization</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Before 2018</div>
+                    <div class="timeline-content">
+                        <h4>Bachelor's Degree</h4>
+                        <p>University of Twente, Netherlands</p>
+                        <p>Foundation in engineering and computational sciences</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Contact Information</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Office</h4>
+                            <p>Department of Data Science<br>
+                               City University of Hong Kong<br>
+                               Hong Kong SAR</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>yewei@cityu.edu.hk</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+852 [Contact University]</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-calendar"></i>
+                        <div>
+                            <h4>Office Hours</h4>
+                            <p>Tuesdays & Thursdays<br>2:00 PM - 4:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send a Message</h3>
+                    <form>
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <input type="text" placeholder="Subject" required>
+                        <textarea placeholder="Message" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>ACE Laboratory</h4>
+                    <p>Applied Computational intelligencE</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-google-scholar"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#research">Research</a></li>
+                        <li><a href="#publications">Publications</a></li>
+                        <li><a href="#group">Group</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>University</h4>
+                    <p>City University of Hong Kong<br>
+                       Department of Data Science<br>
+                       Hong Kong SAR</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dr. Ye Wei. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
